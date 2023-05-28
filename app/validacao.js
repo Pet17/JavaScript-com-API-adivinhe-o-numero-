@@ -39,19 +39,3 @@ document.body.addEventListener('click', e => {
         window.location.reload();
     }
 });
-
-
-
-function chuteForInvalido(numero) {
-    return isNaN(numero);
-}
-
-function numeroForMaiorOuMenorQueValorPermitido(numero) {
-    return numero > maiorValor || numero < menorValor;
-}
-
-document.body.addEventListener('click', e => {
-    if (e.target.id == 'jogar-novamente') {
-        window.location.reload();
-    }
-})
